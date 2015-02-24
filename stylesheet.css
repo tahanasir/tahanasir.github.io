@@ -1,0 +1,251 @@
+html,body {height:100%;}
+.jumbotron {height:100%;}
+
+.jumbotron {
+    background-image:url('../images/original-crop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+} 
+
+.jumbotron h1 {
+  color: #333;
+  font-size: 260%;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow:none;
+}
+
+
+.jumbotron p {
+  font-size: 20px;
+  color: #333;
+}
+
+#icon-menu {
+  float:left; 
+  position: fixed;
+  margin-left: 1%;
+  color: #222;
+  position: fixed;
+top: 46%;
+}
+
+#logo {
+  width:40%; 
+  display: block; 
+  margin:auto;
+}
+
+#nav {
+  list-style-type: none; 
+  font-family:'Raleway'; 
+  font-size:18px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 95%;
+}
+
+#nav li {padding-bottom: 15px;}
+#nav a {color:#C0C0C0;}
+
+#nav a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+#icons{
+
+
+
+
+}
+
+
+
+
+.twitter-timeline {
+  float: right;
+  height: 525px;
+}
+
+
+
+#about-p .twitter-links {
+    color: #333;
+
+}
+h2{
+  font-size: 30px;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1280px) {
+ 
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+#resume-content {
+  display:none;
+}
+
+.title{
+  display: none;
+}
+
+.twitter-timeline{
+  display:none;
+}
+
+#about {
+  height: 740px;
+}
+
+#resume {
+  max-height: 180px;
+}
+  #projects{
+    min-height: 1660px;
+  }
+
+#contact{
+  min-height: 600px;
+}
+
+#footer {
+  min-height: 100px;
+}
+
+#pageslide {
+  width:50%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+.form-control {
+  min-width: 250px;
+}
+
+#fl {
+  margin-top: 40px;
+}
+  
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+
+#resume-content {
+  display:none;
+}
+
+.title{
+  display: none;
+}
+
+.twitter-timeline{
+  display:none;
+}
+
+#about {
+  height: 740px;
+}
+
+#resume {
+  max-height: 180px;
+}
+  #projects{
+    height: 560px;
+  }
+
+#contact{
+  min-height: 600px;
+}
+
+#footer {
+  min-height: 100px;
+}
+
+#pageslide {
+  width:50%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+.form-control {
+  min-width: 250px;
+}
+
+#fl {
+  margin-top: 40px;
+}
+  }
+
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 360px) {
+    #resume-content {
+  display:none;
+}
+
+.title{
+  display: none;
+}
+
+.twitter-timeline{
+  display:none;
+}
+
+#about {
+  height: 840px;
+}
+
+#resume {
+  max-height: 180px;
+}
+  #projects{
+    min-height: 1160px;
+  }
+
+#contact{
+  min-height: 600px;
+}
+
+#footer {
+  min-height: 100px;
+}
+
+#pageslide {
+  width:50%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+.form-control {
+  min-width: 250px;
+}
+
+#fl {
+  margin-top: 40px;
+}
+  }
+
+
+
