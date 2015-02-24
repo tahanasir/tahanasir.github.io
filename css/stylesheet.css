@@ -1,6 +1,9 @@
 html,body {height:100%;}
 .jumbotron {height:100%;}
 
+body {
+  background-color: black;
+}
 .jumbotron {
     background-image:url('../images/original-crop.jpg');
     background-repeat: no-repeat;
