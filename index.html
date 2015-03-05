@@ -1,5 +1,13 @@
 <head>
+   		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css">
    		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link href="css/bootstrap-social.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -185,3 +193,36 @@ and Medical Sciences. </h2>
 		</div>
 		
 		</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 	
+	<script src="/js/jquery.queryloader2.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/js/jquery.pageslide.min.js"></script>
+
+<script>
+		$("#navbar_toggle").pageslide();
+		</script>
+		<script>
+			$(document).ready(function () {
+    			$("body").queryLoader2();
+			});
+		</script>
+
+		
+
+		<!-- SMOOTH SCROLL -->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
