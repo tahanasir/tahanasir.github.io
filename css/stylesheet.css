@@ -115,7 +115,7 @@ display: none !important;
   max-height: 180px;
 }
   #projects{
-    min-height: 800px;
+    height: 800px;
   }
 
 /*#contact{
@@ -221,7 +221,7 @@ body {
   max-height: 180px;
 }
   #projects{
-    min-height: 500px;
+    height: 500px;
   }
 
 /*#contact{
