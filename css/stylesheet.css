@@ -84,17 +84,12 @@ h2{
 
   /* Large Devices, Wide Screens */
   @media only screen and (max-width : 1280px) {
- #myname {
-      font-size: 860% !important;
-    }
+ 
   }
 
   /* Medium Devices, Desktops */
   @media only screen and (max-width : 992px) {
 
-    #myname {
-      font-size: 600% !important;
-    }
   }
 
   /* Small Devices, Tablets */
