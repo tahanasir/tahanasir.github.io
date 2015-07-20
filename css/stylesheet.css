@@ -90,6 +90,9 @@ h2{
   /* Medium Devices, Desktops */
   @media only screen and (max-width : 992px) {
 
+    #myname {
+      font-size: 600%;
+    }
   }
 
   /* Small Devices, Tablets */
@@ -118,9 +121,10 @@ display: none !important;
     min-height: 1060px;
   }
 
-#contact{
+/*#contact{
   min-height: 600px;
 }
+*/
 
 #footer {
   min-height: 100px;
@@ -171,9 +175,10 @@ display: none !important;
     height: 560px;
   }
 
-#contact{
+/*#contact{
   min-height: 600px;
 }
+*/
 
 #footer {
   min-height: 100px;
@@ -222,9 +227,10 @@ body {
     min-height: 1160px;
   }
 
-#contact{
+/*#contact{
   min-height: 600px;
 }
+*/
 
 #footer {
   min-height: 100px;
