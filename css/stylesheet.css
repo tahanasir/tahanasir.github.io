@@ -104,8 +104,7 @@ h2{
 }
 
 .twitter-timeline{
-  display:none;
-  visibility:hidden;
+display: none !important;
 }
 
 #about {
@@ -157,9 +156,7 @@ body {
 }
 
 .twitter-timeline{
-  display:none;
-    visibility:hidden;
-
+display: none !important;
 }
 
 #about {
