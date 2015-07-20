@@ -2,7 +2,7 @@ html,body {height:100%;}
 .jumbotron {height:100%;}
 
 .jumbotron {
-    background-image:url('/images/original-crop.jpg');
+    background-image:url('/images/batman.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 5%;
