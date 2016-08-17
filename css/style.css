@@ -61,7 +61,7 @@ html,body {height:100%;}
 
 #titlepage-container {
   position:relative;
-  top:20%;"
+  top:21%;"
 }
 
 #nav-list li {padding-bottom: 20px;}
@@ -92,5 +92,4 @@ html,body {height:100%;}
 
 .twitter-timeline {
   float: right;
-  height: 525px;
 }
