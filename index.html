@@ -1,219 +1,114 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-	
-	<head>
-		<title>Taha Nasir</title>
-		<meta name="author" content="Taha Nasir">
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-
-		<meta name="description" content="Personal site of Taha Nasir. I'm a student at Western University pursuing an Honours Specialization in Computer Science and a Major and Medical Sciences.">
-
-		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css">
-		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="css/bootstrap-social.css" rel="stylesheet" type="text/css">
-
-		<link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-
- 	</head>
-
-	<body> 
-		<div id="sidebar"style="display:none;">
-			<a href="#hm">
-				<img id="logo" src="images/icon2.png"/>
-			</a>
-
-			<ul id="nav">
-				<a href="#about"><li>ABOUT</li></a>
-				<a href="#resume"><li>RESUME</li></a>
-				<a href="#projects" style="display:none"><li>PROJECTS</li></a>
-				<a href="#blog" style="display:none;"><li>BLOG</li></a>
-				<a href="#contact" style="display:none;"><li>CONTACT</li></a>
-			</ul>
-
-			<div style="bottom:3%;  margin: auto;position: absolute;left: 0; bottom: 3%; right: 0;width: 110px;">
-				<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/taha.nasir.8" target="_blank">
-    				<i class="fa fa-facebook"></i>
-  				</a>
-			
-				<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/tahamnasir" target="_blank">
-    				<i class="fa fa-twitter"></i>
-  				</a>
-					
-  				<a class="btn btn-social-icon btn-linkedin" href="http://ca.linkedin.com/in/tahanasir" target="_blank">
-    				<i class="fa fa-linkedin"></i>
-  				</a>
-
-  				<br>
-
-				<a class="btn btn-social-icon btn-google-plus" href="https://plus.google.com/114300351964702042543/posts" target="_blank">
-    				<i class="fa fa-google-plus"></i>
-  				</a>
-
-  				<a class="btn btn-social-icon btn-github" href="https://github.com/tahanasir" target="_blank">
-    				<i class="fa fa-github"></i>
-  				</a>
-
-  				<a class="btn btn-social-icon btn-openid" href="mailto:tahamnasir@gmail.com" target="_blank">
-    				<i class="fa fa-envelope"></i>
-  				</a>			
-</div>
-  					
-
-		</div>		
-	
-		<a href="#sidebar"id="navbar_toggle">		
-			<i class="fa fa-bars fa-2x" id="icon-menu"></i> 
-		</a>
-
-		<div class="jumbotron">
-			<a name="hm"></a>
-
-			<div class="container" style="position:relative;float:right;top:20%;">
-
-				<h1 class="title" style="text-align:right; padding-right:5%; font-size:600%;">Taha Nasir</h1><br>
-
-<h1 class="title" style="text-align:right; padding-right:5%; font-size:220%;">Student at Western University</h1>
- 
-<h2 class="title" style="text-align:right; padding-right:5%; font-size:160%;">Software Developer, Aspiring Entrepreneur <br> Computer Science, Medical Sciences.</h2>
-				
-			</div>
-		</div>
-
-		<a name="about"></a>
-
-		<div class="jumbotron" id="about" style="background: #F0F0F0;">
-			<div class="container" style="display: table;height: 100%;width: 100%;">
-			<div style="display: table-cell;vertical-align: middle; ">
-
-				<div class="row" style="margin-left:4%">
-					
-  					<div class="col-md-6" >
-						<div id="about-p" style="margin-top:1%;">
-							<h1 style="font-size:44px;">About Me</h1><br>
-							<p style="color:#222; text-shadow:none;">I'm a student at Western University pursuing an Honors Specialization in Computer Science and an additional Major in Medical Sciences. 
-							<br><br>
-					 		I am a software developer and an aspiring entrepreneur who is interested in technology startups. I enjoy developing web and mobile applications but I'm also interested in big data, machine learning and computer graphics. When I'm not studying or hacking away, I'm probably watching NBA since I happen to be a die hard Toronto Raptors fan. I'm a casual gamer too (PSN: TNazz08).
-							<br><br>
-							Follow me on Twitter and check back soon for more updates.</p>
-						</div>
-					</div>
-				
-					<div class="col-md-5">
-						<a class="twitter-timeline" href="https://twitter.com/tahamnasir" data-widget-id="424667164277092352">Tweets by @tahamnasir</a>
-					</div>
-
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-				</div>
-			</div>
-			</div>
-		</div>
-
-		<a name="resume"></a>			
-		<div class="jumbotron" id="resume" style="background:#555; height:1260px;">
-
-			<div class="container" style="">
-				<h1 style="font-size:44px;color:#F8F8F8;">Resume</h1><br>
-				<embed id="resume-content" src="resume.pdf" style="float:left;height:1066px; width:830px;">
-				<a href="resume.pdf" download>
-					<button type="button" class="btn btn-primary" id="dl-button" style="margin-left:2%;float:left;">Download</button>
-				</a>
-			</div>
-		</div>
-
-        <!-- Projects Row
-
-		<a name="projects"></a>
-		<div class="jumbotron" id="projects" style="background:#F0F0F0; height:980px;">
-			<div class="container" style="">
-				<h1 style="font-size: 44px;">Projects</h1><br><br>
-
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="http://hackthenorth.stanleychin.com/4" target="blank">
-                    <img class="img-responsive" src="images/sb.png" alt="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Personal website of Taha Nasir. I am a Computer Science student at The University of Western Ontario in Canada.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Taha Nasir</title>
+        <link rel="author" href="Taha Nasir">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <a href="#sidebar" class="sidebar">
+            <i class="fa fa-bars fa-3x" id="sidebar-icon"></i>
+        </a>
+        <a name="home"></a>
+        <div class="jumbotron" id="titlepage-jumbotron">
+            <div class="container"id="titlepage-container">
+                <div class="row">
+                    
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <h1 style="font-size:80px;">Taha Nasir</h1>
+                        <h2>Software Developer, Computer Science Toronto, Canada <a href="https://twitter.com/#wethenorth">#WeTheNorth</a></h2>
+                        <h2 class="titlepage-font"></h2>
+                    </div>
+                    <div class="col-md-3"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <a name="about"></a>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>About Me</h1> <br>
+                        <p>I am a student at The University of Western Ontario pursing a degree in Computer Science and Medical Sciences.
+                            
+                            <br><br>
+                            
+                            I am a software developer and an aspiring entrepreneur who is interested in web and mobile development, machine learning and tech startups. If I'm not hacking, I'm probably playing basketball or watching the NBA since I happen to be a die hard Toronto Raptors fan.
+                            
+                            <br><br>
+                            
+                        Follow me on Twitter for the latest NBA and tech news.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <a class="twitter-timeline" href="https://twitter.com/tahamnasir" data-widget-id="424667164277092352">Tweets by @tahamnasir</a>
+                    </div>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+        <div id="sidebar" style="display:none">
+            <div id="navigation">
+                <ul id="nav-list">
+                    <a href="#home"><li>HOME</li></a>
+                    <a href="#about"><li>ABOUT</li></a>
+                    <a href="resume.pdf" target="_blank"><li>RESUME</li></a>
+                    <a href="https://github.com/tahanasir" target="_blank"><li>GITHUB</li></a>
+                </ul>
+            </div>
+            <div id="social-icons">
+                <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/tahamnasir" target="_blank">
+                    <span class="fa fa-twitter"></span>
                 </a>
-                <h3>
-                    <a href="http://hackthenorth.stanleychin.com/4" TARGET="BLANK">Shopping Buddy</a>
-                </h3>
-                <p style="text-shadow:none;">Hack the North project. Platform to connect people who want to share promotional discounts.<br><ul><li><a href="http://challengepost.com/software/shopping-buddy" TARGET="BLANK">ChallengePost</a></li>
-                	<BR><li><a href="https://github.com/tahanasir/ShoppingBuddy" TARGET="BLANK">GitHub</a></li></ul> </p>
-            </div>
-        </div>
-<br><br>
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
                 
-                    <img class="img-responsive" src="images/md.png" alt="">
-               
-                <h3>
-                    Moeen Design logo
-                </h3>
-                
-            </div>
-           
-        </div>
-    	</div>
-		</div>
--->
-
-<div id="footer" style="width:100%; padding:1%; height:6%; background: #333; color:#fff; font-size:11px; 
-font-family:'Raleway', sans-serif; text-align:center; vertical-align:center;">
-					<p id="fl">TAHA NASIR © 2015 ALL RIGHTS RESERVED</p>
-				</div>
-
-		
-
-	</body>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 	
-	<script src="js/jquery.queryloader2.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/jquery.pageslide.min.js"></script>
-
-<script>
-		$("#navbar_toggle").pageslide();
-		</script>
-		<script>
-			$(document).ready(function () {
-    			$("body").queryLoader2();
-			});
-		</script>
-
-		
-
-		<!-- SMOOTH SCROLL -->
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
-<!-- End of SMOOTH SCROLL -->
-
-
-</html>
-
-<!-- style="width:100%; max-height:100%; background:blue;padding:0px;"
-style="left:35%; top:32%;middle; position: absolute; font-family: 'Raleway', sans-serif; font-weight: bold; font-size:5em; color:#fff;" 
-<object data="resume.pdf" type="application/pdf" width="855px" height="1080px"></object>
-
--->
+                <a class="btn btn-social-icon btn-linkedin" href="http://ca.linkedin.com/in/tahanasir" target="_blank">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a class="btn btn-social-icon btn-openid" href="mailto:tahamnasir@gmail.com" target="_blank">
+                    <span class="fa fa-envelope"></span>
+                </a>
+                <div>
+                </div>
+            </body>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script type="text/javascript" src="js/jquery.pageslide.min.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            
+            
+            <script type="text/javascript">
+            $("a.sidebar").pageslide();
+            </script>
+            <!-- SMOOTH SCROLL -->
+            <script>
+            $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+            $('html,body').animate({
+            scrollTop: target.offset().top
+            }, 1000);
+            return false;
+            }
+            }
+            });
+            });
+            </script>
+            <!-- End of SMOOTH SCROLL -->
+        </html>
