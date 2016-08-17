@@ -18,10 +18,11 @@
     </head>
     <body>
         <a href="#sidebar" class="sidebar">
-            <i class="fa fa-bars fa-3x" id="sidebar-icon"></i>
+            <span class="fa fa-bars fa-3x" id="sidebar-icon"></span>
         </a>
-        <a name="home"></a>
+        
         <div class="jumbotron" id="titlepage-jumbotron">
+            <a name="home"></a>
             <div class="container"id="titlepage-container">
                 <div class="row">
                     
@@ -43,8 +44,7 @@
                     <div class="col-md-12">
                         <h1>About Me</h1> <br>
                     </div>
-                                        <div class="col-md-6" style="padding-left: 14%; padding-top: 3%;">
-
+                    <div class="col-md-6" style="padding-left: 14%; padding-top: 3%;">
                         <p style="font-size:30px;">I am student at The University of Western Ontario pursuing a degree in Computer Science and Medical Sciences.
                             
                             <br><br>
@@ -56,13 +56,17 @@
                         Follow me on Twitter for the latest NBA and tech news.</p>
                     </div>
                     <div class="col-md-6" style="padding-right: 14%; padding-top: 2%;">
-                       <a class="twitter-timeline" data-width="600" data-height="600" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/tahamnasir">Tweets by tahamnasir</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a class="twitter-timeline" data-width="600" data-height="600" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/tahamnasir">Tweets by tahamnasir</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
         </div>
-        <div id="sidebar" style="display:none">
+        <a href="#sidebar" class="sidebar-link">
+            <span class="fa fa-bars fa-3x" id="sidebar-icon"></span>
+        </a>
+        
+        <div id="sidebar" style="display:none;">
             <div id="navigation">
                 <ul id="nav-list">
                     <a href="#home"><li>home</li></a>
@@ -85,33 +89,37 @@
                 <div>
                 </div>
             </body>
+            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
             <script type="text/javascript" src="js/jquery.pageslide.min.js"></script>
-            <script type="text/javascript" src="js/main.js"></script>
             <!-- Latest compiled and minified JavaScript -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             
             
             <script type="text/javascript">
-            $("a.sidebar").pageslide();
+            $("a.sidebar-link").pageslide();
             </script>
-
             <!-- SMOOTH SCROLL -->
             <script>
             $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+            $('a[href*="#"]:not([href="#"], [href="#sidebar"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+            $('html, body').animate({
+            scrollTop: target.offset().top
+            }, 1000);
+            return false;
+            }
+            }
+            });
+            });
             </script>
             <!-- End of SMOOTH SCROLL -->
+            <script>
+            $(document).ready(function () {
+            $("body").queryLoader2();
+            });
+            </script>
         </html>
