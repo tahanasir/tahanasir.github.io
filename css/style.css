@@ -4,8 +4,12 @@
   height: 100vh;
 } 
 
-#titlepage-jumbotron{
+#home-jumbotron{
   background-image:url('../images/winter3.jpg');
+}
+
+#about-jumbotron {
+
 }
 
 /* -----SIDEBAR----- */
@@ -57,7 +61,7 @@
   margin:auto;
 }
 
-#titlepage-container {
+#home-container {
   position:relative;
   top:21%;"
 }
@@ -90,4 +94,8 @@
 
 .twitter-timeline {
   float: right;
-}
+}  
+
+#wethenorth:hover {
+    text-decoration: none;
+  }
