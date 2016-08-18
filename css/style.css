@@ -1,9 +1,7 @@
-html,body {height:100%;}
-.jumbotron {height:100%;}
-
 .jumbotron {
   background-size: cover;
   margin-bottom: 0 !important;
+  height: 100vh;
 } 
 
 #titlepage-jumbotron{
