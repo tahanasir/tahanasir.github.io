@@ -54,7 +54,7 @@ text-align      : center
 @media (max-width: 480px) {
   #nav {
 position        : absolute;
-top: 			none;
+top: 			initial;
 padding-top     : 20%; 
 margin          : auto;
 left            : 0; 
@@ -63,7 +63,7 @@ right           : 0;
 
 #social-icons {
 position        : absolute;
-bottom     		: none;  
+bottom     		: initial;  
 margin          : auto;
 left            : 0; 
 right           : 0;
