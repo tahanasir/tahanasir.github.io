@@ -18,7 +18,6 @@
 }
 
 .twitter-timeline {
-  float            : right;
 } 
 
 #about-div {
@@ -74,11 +73,11 @@
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-    .twitter-timeline {
-display: none !important;
+  .twitter-timeline {
+    display: none !important;
   } 
 
   #home-h1 {
-    padding-top: 50%;
+    padding-top: 40%;
   }
 }
