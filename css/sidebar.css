@@ -55,7 +55,7 @@ text-align      : center
   #nav {
 position        : absolute;
 top: 			initial;
-padding-top     : 20%; 
+padding-top     : 40%; 
 margin          : auto;
 left            : 0; 
 right           : 0;
@@ -67,8 +67,8 @@ bottom     		: initial;
 margin          : auto;
 left            : 0; 
 right           : 0;
-text-align      : center
-padding-top: 50%;
+text-align      : center;
+padding-top: 70%;
 }
 
 }
