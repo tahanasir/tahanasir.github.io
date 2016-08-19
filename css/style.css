@@ -88,6 +88,24 @@
     #about-p {
     font-family      : "Raleway";
     font-size        : 160%;
-    padding-left     : 10%;
+    padding-left     : 12%;
+  } 
+}
+
+/* Custom, iPhone Retina */ 
+@media (max-width : 360px) {
+   .twitter-timeline {
+    display: none !important;
+  } 
+
+  #home-h1 {
+    padding-top: 20%;
+    font-size: 350%;
+  }
+
+    #about-p {
+    font-family      : "Raleway";
+    font-size        : 140%;
+    padding-left     : 14%;
   } 
 }
