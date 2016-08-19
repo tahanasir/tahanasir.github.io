@@ -20,11 +20,12 @@ background-image       : url('../images/winter3.jpg');
 text-decoration        : none;
 }
 
-.twitter-timeline {
-} 
-
 #about-div {
 padding-top            : 1%;
+}
+
+#about-p {
+font-family            : "Raleway";
 }
 
 /* High-resolution desktops and laptops */
@@ -34,22 +35,13 @@ position               : relative;
 top                    : 23%;
 }
 
-#home-h1 {
-font-size              : 500%;
-}
-
-#about-h1 {
+#home-h1, #about-h1 {
 font-size              : 500%;
 }
 
 #about-p {
-font-family            : "Raleway";
 font-size              : 190%;
 }
-
-.twitter-timeline {
-float                  : right;
-} 
 
 #twitter-widget-0 { 
 height                 : 500px !important; 
@@ -68,52 +60,7 @@ font-size              :200%;
 }
 
 #about-p {
-font-family            : "Raleway";
 font-size              : 160%;
 padding-left           : 10%;
-} 
-}
-
-/* Portrait phones and smaller */
-@media (min-width      : 361px) and (max-width: 480px) {
-.twitter-timeline {
-display                : none !important;
-} 
-
-#home-h1 {
-padding-top            : 11%;
-font-size              : 370%;
-}
-
-#home-wethenorth {
-pointer-events         : none;
-cursor                 : default;
-}
-
-#about-p {
-font-size              : 160%;
-padding-left           : 13%;
-} 
-}
-
-/* Custom, iPhone Retina */ 
-@media (max-width      : 360px) {
-.twitter-timeline {
-display                : none !important;
-} 
-
-#home-h1 {
-padding-top            : 9%;
-font-size              : 350%;
-}
-
-#home-wethenorth{
-pointer-events         : none;
-cursor                 : default;
-}
-
-#about-p {
-font-size              : 125%;
-padding-left           : 15%;
 } 
 }

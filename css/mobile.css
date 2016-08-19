@@ -1,0 +1,47 @@
+/* Portrait phones and smaller */
+@media (min-width      : 361px) and (max-width: 480px) {
+#home-h1 {
+padding-top            : 11%;
+font-size              : 370%;
+}
+
+#home-wethenorth {
+pointer-events         : none;
+cursor                 : default;
+}
+
+#about-p {
+font-size              : 160%;
+padding-left           : 13%;
+} 
+
+.twitter-timeline {
+display                : none !important;
+} 
+}
+
+/* Custom, iPhone Retina */ 
+@media (max-width      : 360px) {
+#home-h1 {
+padding-top            : 9%;
+font-size              : 350%;
+}
+
+#home-h2 {
+font-size              : 180%;
+}
+
+#home-wethenorth{
+pointer-events         : none;
+cursor                 : default;
+}
+
+#about-p {
+font-size              : 125%;
+padding-left           : 15%;
+} 
+
+.twitter-timeline {
+display                : none !important;
+} 
+}
