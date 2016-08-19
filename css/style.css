@@ -75,7 +75,7 @@
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     .twitter-timeline {
-    visibility:hidden
+    visibility:hidden;
   } 
 
   #home-h1 {
