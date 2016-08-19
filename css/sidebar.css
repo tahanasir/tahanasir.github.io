@@ -54,6 +54,7 @@ text-align      : center
 @media (max-width: 480px) {
   #nav {
 position        : absolute;
+top: 			none;
 padding-top     : 20%; 
 margin          : auto;
 left            : 0; 
