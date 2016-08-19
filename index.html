@@ -9,115 +9,110 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
         
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/sidebar.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css">
         <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
         <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     </head>
+
     <body>
         <a name="home"></a>
         <div class="jumbotron" id="home-jumbotron">
             <div class="container"id="home-container">
                 <div class="row">
-                    
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <h1 style="font-size:80px;">Taha Nasir</h1>
-                        <h2>Software Developer, Computer Science Toronto, Canada <a href="https://twitter.com/#wethenorth" target ="_blank" id="wethenorth">#WeTheNorth</a></h2>
-                        <h2 class="home-font"></h2>
+                        <h1 id="jumbotron-h1">Taha Nasir</h1>
+                        <h2 id=home-h2>Software Developer, Computer Science Toronto, Canada <a href="https://twitter.com/#wethenorth" target ="_blank" id="home-wethenorth">#WeTheNorth</a></h2>
                     </div>
                     <div class="col-md-3"></div>
-                    
                 </div>
             </div>
         </div>
+
         <a name="about"></a>
-        <div class="jumbotron" id="about-jumbotron">
+        <div class="jumbotron">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>About Me</h1> <br>
+                        <h1 id="jumbotron-h1">About Me</h1> <br>
                     </div>
-                    <div class="col-md-6" style="padding-top: 1%;">
-                        <p style="font-size:189%;">I'm student at The University of Western Ontario pursuing an honors degree in Computer Science and Medical Sciences.
+
+                    <div class="col-md-6" id="about-div">
+                        <p id="about-p">I'm student at The University of Western Ontario pursuing an honors degree in Computer Science and Medical Sciences.</p>
                             
-                            <br><br>
-                            
-                            I am a software developer and an aspiring entrepreneur who is interested in web and mobile development, machine learning and tech startups. If I'm not hacking, I'm probably playing basketball or watching the NBA since I happen to be a die hard Toronto Raptors fan.
-                            
-                            <br><br>
-                            
-                        Follow me on Twitter for the latest NBA and tech news.</p>
+                        <p id="about-p">I am a software developer and an aspiring entrepreneur who is interested in web and mobile development, machine learning and tech startups. If I'm not hacking, I'm probably playing basketball or watching the NBA since I happen to be a die hard Toronto Raptors fan.</p>
+                              
+                        <p id="about-p">Follow me on Twitter for the latest NBA and tech news.</p>
                     </div>
                     <div class="col-md-6">
-                        <a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/tahamnasir">Tweets by tahamnasir</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a class="twitter-timeline" data-width="500" data-height="400" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/tahamnasir">Tweets by tahamnasir</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
+                                        <div class="col-md-1"></div>   
+
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
         </div>
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="#sidebar" class="sidebar-link">
+                    <a href="#sidebar" id="sidebar-link">
                         <span class="fa fa-bars fa-3x" id="sidebar-icon"></span>
                     </a>
-                </div></div></div>
-                <div id="sidebar" style="display:none;">
-                    <div id="navigation">
-                        <ul id="nav-list">
-                            <a href="#home"><li>home</li></a>
-                            <a href="#about"><li>about</li></a>
-                            <a href="resume.pdf" target="_blank"><li>resume</li></a>
-                            <a href="https://github.com/tahanasir" target="_blank"><li>github</li></a>
-                        </ul>
-                    </div>
-                    <div id="social-icons">
-                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/tahamnasir" target="_blank">
-                            <span class="fa fa-twitter"></span>
-                        </a>
-                        
-                        <a class="btn btn-social-icon btn-linkedin" href="http://ca.linkedin.com/in/tahanasir" target="_blank">
-                            <span class="fa fa-linkedin"></span>
-                        </a>
-                        <a class="btn btn-social-icon btn-openid" href="mailto:tahamnasir@gmail.com" target="_blank">
-                            <span class="fa fa-envelope"></span>
-                        </a>
-                        <div>
-                        </div>
-                    </body>
+        </div></div></div>
+
+        <div id="sidebar">
+            <div id="nav">
+                <ul>
+                    <a href="#home"><li>home</li></a>
+                    <a href="#about"><li>about</li></a>
+                    <a href="resume.pdf" target="_blank"><li>resume</li></a>
+                    <a href="https://github.com/tahanasir" target="_blank"><li>github</li></a>
+                </ul>
+            </div>
+            <div id="social-icons">
+                <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/tahamnasir" target="_blank">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a class="btn btn-social-icon btn-linkedin" href="http://ca.linkedin.com/in/tahanasir" target="_blank">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+                <a class="btn btn-social-icon btn-openid" href="mailto:tahamnasir@gmail.com" target="_blank">
+                    <span class="fa fa-envelope"></span>
+                </a>
+            <div>
+        </div>
+    </body>
                     
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-                    <script type="text/javascript" src="js/jquery.pageslide.min.js"></script>
-                    <!-- Latest compiled and minified JavaScript -->
-                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-                    
-                    <script type="text/javascript">
-                    $("a.sidebar-link").pageslide();
-                    </script>
-                    <!-- SMOOTH SCROLL -->
-                    <script>
-                    $(function() {
-                    $('a[href*="#"]:not([href="#"], [href="#sidebar"])').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                    $('html, body').animate({
-                    scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                    }
-                    }
-                    });
-                    });
-                    </script>
-                    <!-- End of SMOOTH SCROLL -->
-                    <script>
-                    $(document).ready(function () {
-                    $("body").queryLoader2();
-                    });
-                    </script>
-                </html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pageslide.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <!-- SIDEBAR PAGESLIDE -->       
+    <script type="text/javascript">
+    $("a#sidebar-link").pageslide();
+    </script>
+
+    <!-- SMOOTH SCROLL -->
+    <script>
+    $(function() {
+    $('a[href*="#"]:not([href="#"], [href="#sidebar"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+    $('html, body').animate({
+    scrollTop: target.offset().top
+    }, 1000);
+    return false;
+    }
+    }
+    });
+    });
+    </script>
+</html>

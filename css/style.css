@@ -1,101 +1,69 @@
 .jumbotron {
-  background-size: cover;
-  margin-bottom: 0 !important;
-  height: 100vh;
+  background-size  : cover;
+  margin-bottom    : 0 !important;
+  height           : 100vh;
 } 
 
+.jumbotron h1, .jumbotron h2{
+  font-family      : "Raleway"; 
+  text-align       : center;
+}
+
 #home-jumbotron{
-  background-image:url('../images/winter3.jpg');
+  background-image : url('../images/winter3.jpg');
 }
 
-#about-jumbotron {
-
-}
-
-/* -----SIDEBAR----- */
-#sidebar-icon{
-  float:left; 
-  padding-left: 1%;
-  color: #222;
-  position: fixed;
-  bottom:50%;  
-  margin: auto;
-}
-
-#sidebar {
-  background-color: #222;
-  height:100%;
-}
-
-#navigation {
-  position: absolute;
-  bottom:38%;  
-  margin: auto;
-  left: 0; 
-  right: 0;
-}
-
-#nav-list {
-  font-family:"Raleway"; 
-  font-size:20px;
-  padding: 0px;
-  text-align: center;
-  list-style-type: none; 
-}
-
-#social-icons {
-  width: 110px;  
-  position: absolute;
-  bottom:2%;  
-  margin: auto;
-  left: 0; 
-  right: 0;
-}
-/* -----SIDEBAR----- */
-
-
-
-#sidebar-logo {
-  width:40%; 
-  display: block; 
-  margin:auto;
-}
-
-#home-container {
-  position:relative;
-  top:21%;"
-}
-
-#nav-list li {padding-bottom: 20px;}
-#nav-list a {color:#C0C0C0;}
-
-#nav-list a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  p {
-    font-family:Raleway; 
-  }
-
-  .jumbotron h1 {
-    font-family:Raleway; 
-  text-align:center;
-  }
-
-  .jumbotron h2 {
-  font-family:Raleway; 
-  text-align:center;
-}
-
-.jumbotron .container {
-  height: 100%;
+#home-wethenorth :hover {
+  text-decoration  : none;
 }
 
 .twitter-timeline {
-  float: right;
-}  
+  float            : right;
+} 
 
-#wethenorth:hover {
-    text-decoration: none;
+#about-div {
+  padding-top: 1%;
+}
+
+/* High-resolution desktops and laptops */
+@media (min-width: 1600px){
+  #home-container {
+    position         : relative;
+    top              : 23%;
   }
+
+  #jumbotron-h1 {
+    font-size: 500%;
+  }
+
+  #about-p {
+    font-family      : "Raleway";
+    font-size        : 190%;
+  }
+
+  .twitter-timeline {
+    float            : right;
+  } 
+
+  #twitter-widget-0 { 
+      height: 500px !important; 
+    }
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1599px){
+  #home-container {
+    position         : relative;
+    top              : 19%;
+  }
+
+  #home-h2 {
+    font-size:200%;
+  }
+
+  #about-p {
+    font-family      : "Raleway";
+    font-size        : 160%;
+    padding-left     : 10%;
+  } 
+}

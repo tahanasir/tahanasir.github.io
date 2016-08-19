@@ -1,0 +1,51 @@
+#sidebar {
+background-color: #222;
+height          : 100%;
+display         : none;
+}
+
+#sidebar-icon{
+float           : left; 
+color           : #222;
+position        : fixed;
+bottom          : 50%;  
+margin          : auto;
+}
+
+#nav {
+position        : absolute;
+bottom          : 40%;  
+margin          : auto;
+left            : 0; 
+right           : 0;
+}
+
+#nav ul {
+list-style-type : none; 
+font-family     : "Raleway"; 
+font-size       : 150%;
+padding         : 0px;
+text-align      : center;
+}
+
+#nav ul a {
+color           : #bdc3c7;
+}
+
+#nav ul a:hover {
+color           : #ecf0f1;
+text-decoration : none;
+}
+
+#nav ul a li {
+padding-bottom  : 10%;
+}
+
+#social-icons {
+position        : absolute;
+bottom          : 3%;  
+margin          : auto;
+left            : 0; 
+right           : 0;
+text-align      : center
+}
