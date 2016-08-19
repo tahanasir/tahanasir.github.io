@@ -1,78 +1,77 @@
 #sidebar {
-background-color: #222;
-height          : 100%;
-display         : none;
+background-color : #222;
+height           : 100%;
+display          : none;
 }
 
 #sidebar-icon{
-float           : left; 
-color           : #222;
-position        : fixed;
-bottom          : 50%;  
-margin          : auto;
+float            : left; 
+color            : #222;
+position         : fixed;
+bottom           : 50%;  
+margin           : auto;
 }
 
 #nav {
-position        : absolute;
-top     		: 25%;  
-margin          : auto;
-left            : 0; 
-right           : 0;
+position         : absolute;
+top              : 25%;  
+margin           : auto;
+left             : 0; 
+right            : 0;
 }
 
 #nav ul {
-list-style-type : none; 
-font-family     : "Raleway"; 
-font-size       : 150%;
-padding         : 0px;
-text-align      : center;
+list-style-type  : none; 
+font-family      : "Raleway"; 
+font-size        : 150%;
+padding          : 0px;
+text-align       : center;
 }
 
 #nav ul a {
-color           : #bdc3c7;
+color            : #bdc3c7;
 }
 
 #nav ul a:hover {
-color           : #ecf0f1;
-text-decoration : none;
+color            : #ecf0f1;
+text-decoration  : none;
 }
 
 #nav ul a li {
-padding-bottom  : 13%;
+padding-bottom   : 13%;
 }
 
 #social-icons {
-position        : absolute;
-bottom     		: 3%;  
-margin          : auto;
-left            : 0; 
-right           : 0;
-text-align      : center
+position         : absolute;
+bottom           : 3%;  
+margin           : auto;
+left             : 0; 
+right            : 0;
+text-align       : center
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-	#pageslide {
-width: 40% !important;
+#pageslide {
+width            : 40% !important;
 }
 
-  #nav {
-position        : absolute;
-top: 			initial;
-padding-top     : 50%; 
-margin          : auto;
-left            : 0; 
-right           : 0;
+#nav {
+position         : absolute;
+top              : initial;
+padding-top      : 50%; 
+margin           : auto;
+left             : 0; 
+right            : 0;
 }
 
 #social-icons {
-position        : absolute;
-bottom     		: initial;  
-margin          : auto;
-left            : 0; 
-right           : 0;
-text-align      : center;
-padding-top: 200%;
+position         : absolute;
+bottom           : initial;  
+margin           : auto;
+left             : 0; 
+right            : 0;
+text-align       : center;
+padding-top      : 200%;
 }
-
 }
