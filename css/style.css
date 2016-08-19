@@ -85,10 +85,16 @@
     font-size: 350%;
   }
 
+  #home-wethenorth :hover {
+  text-decoration  : none;
+     pointer-events: none;
+   cursor: default;
+}
+
     #about-p {
     font-family      : "Raleway";
     font-size        : 160%;
-    padding-left     : 12%;
+    padding-left     : 13%;
   } 
 }
 
@@ -103,9 +109,15 @@
     font-size: 350%;
   }
 
+  #home-wethenorth :hover {
+  text-decoration  : none;
+     pointer-events: none;
+   cursor: default;
+}
+
     #about-p {
     font-family      : "Raleway";
-    font-size        : 140%;
-    padding-left     : 14%;
+    font-size        : 120%;
+    padding-left     : 145%;
   } 
 }
