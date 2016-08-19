@@ -49,11 +49,3 @@ left            : 0;
 right           : 0;
 text-align      : center
 }
-
-@media (max-width: 480px) {
-#sidebar {
-background-color: #222;
-height          : 80%;
-display         : none;
-}
-}
