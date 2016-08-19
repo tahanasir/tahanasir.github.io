@@ -14,7 +14,7 @@ margin          : auto;
 
 #nav {
 position        : absolute;
-bottom          : 40%;  
+padding-top     : 50%;  
 margin          : auto;
 left            : 0; 
 right           : 0;
@@ -54,8 +54,7 @@ text-align      : center
 @media (max-width: 480px) {
   #nav {
 position        : absolute;
-top          : 20%; 
-bottom: 0%; 
+padding-top     : 20%; 
 margin          : auto;
 left            : 0; 
 right           : 0;
