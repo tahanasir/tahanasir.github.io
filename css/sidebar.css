@@ -52,11 +52,8 @@ text-align      : center
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-	#sidebar {
-background-color: #222;
-height          : 100%;
-display         : none;
-width: 50% !important;
+	#pageslide {
+width: 50%;
 }
 
   #nav {
