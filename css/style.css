@@ -32,7 +32,11 @@
     top              : 23%;
   }
 
-  #jumbotron-h1 {
+  #home-h1 {
+    font-size: 500%;
+  }
+
+   #about-h1 {
     font-size: 500%;
   }
 
@@ -70,7 +74,11 @@
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  .twitter-timeline {
+    .twitter-timeline {
     display:none;
   } 
+
+  #home-h1 {
+    padding-top: 20%;
+  }
 }
