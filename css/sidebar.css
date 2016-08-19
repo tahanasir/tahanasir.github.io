@@ -2,6 +2,7 @@
 background-color: #222;
 height          : 100%;
 display         : none;
+position: fixed;
 }
 
 #sidebar-icon{
