@@ -85,8 +85,7 @@
     font-size: 350%;
   }
 
-  #home-wethenorth :hover {
-  text-decoration  : none;
+  #home-wethenorth {
      pointer-events: none;
    cursor: default;
 }
@@ -109,8 +108,7 @@
     font-size: 350%;
   }
 
-  #home-wethenorth :hover {
-  text-decoration  : none;
+  #home-wethenorth{
      pointer-events: none;
    cursor: default;
 }
