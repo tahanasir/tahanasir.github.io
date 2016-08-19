@@ -53,7 +53,7 @@ text-align      : center
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
 	#pageslide {
-width: 50 !important;
+width: 50% !important;
 }
 
   #nav {
