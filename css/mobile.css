@@ -27,7 +27,7 @@ display                : none !important;
 /* Custom, iPhone Retina */ 
 @media (max-width: 360px) {
 	#home-jumbotron{
-background-image       : url('../images/winter-mobile.jpg');
+background-image       : url('../images/winter-mobile2.jpg');
 }
 
 #home-h1 {
