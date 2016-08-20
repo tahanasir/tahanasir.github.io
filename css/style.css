@@ -20,6 +20,10 @@ background-image       : url('../images/winter3.jpg');
 text-decoration        : none;
 }
 
+#about-jumbotron {
+	background-color: #C2E0F4;
+}
+
 #about-div {
 padding-top            : 1%;
 }
@@ -63,4 +67,10 @@ font-size              :200%;
 font-size              : 160%;
 padding-left           : 10%;
 } 
+}
+
+.flake{
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    position:absolute;
 }
