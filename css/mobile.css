@@ -1,5 +1,9 @@
 /* Portrait phones and smaller */
 @media (min-width: 361px) and (max-width: 480px) {
+	#home-jumbotron{
+background-image       : url('../images/winter-mobile.jpg');
+}
+
 #home-h1 {
 padding-top            : 11%;
 font-size              : 370%;
@@ -22,6 +26,10 @@ display                : none !important;
 
 /* Custom, iPhone Retina */ 
 @media (max-width: 360px) {
+	#home-jumbotron{
+background-image       : url('../images/winter-mobile.jpg');
+}
+
 #home-h1 {
 padding-top            : 9%;
 font-size              : 350%;
