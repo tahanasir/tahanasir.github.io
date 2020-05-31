@@ -14,7 +14,7 @@ display          : none;
 
 #nav {
 position         : absolute;
-top              : 25%;  
+top              : 30%;  
 margin           : auto;
 left             : 0; 
 right            : 0;
@@ -56,3 +56,4 @@ text-align       : center
 width            : 40% !important;
 }
 }
+
